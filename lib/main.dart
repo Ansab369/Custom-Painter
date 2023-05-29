@@ -1,4 +1,5 @@
 import 'package:custom_paint_pokimon_1/screens/pokimon_custom_paint.dart';
+import 'package:custom_paint_pokimon_1/screens/polygon_custom_paint.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CustomPaintPokimon(),
+      // home: const CustomPaintPokimon(),
+      home: const CustomPaintPolygon(),
     );
   }
 }
