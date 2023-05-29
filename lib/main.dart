@@ -2,6 +2,8 @@ import 'package:custom_paint_pokimon_1/screens/pokimon_custom_paint.dart';
 import 'package:custom_paint_pokimon_1/screens/polygon_custom_paint.dart';
 import 'package:flutter/material.dart';
 
+import 'screens/drawing/drawing_page_1.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const CustomPaintPokimon(),
-      home: const CustomPaintPolygon(),
+      // home: const CustomPaintPolygon(),
+      home: DrawingPage(),
     );
   }
 }
